@@ -3692,6 +3692,7 @@
 			display: inline-block;
 			margin-right: 1.25em;
 			text-decoration: none;
+			font-size: 36px;
 		}
 
 			#header a[href="#nav"] {
