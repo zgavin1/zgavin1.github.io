@@ -2818,16 +2818,34 @@
 		margin-bottom: 4em;
 	}
 
+		.image-grid .skills-list {
+
+		}
+
+			.image-grid .skills-list .image {
+				width: 150px;
+				margin: 10px;
+
+			}
+
+			.image-grid .skills-list .image img {
+				max-width: 100%;
+				max-height: 100px;
+				margin: auto;
+				margin-bottom: 10px;
+			}
+
+
 		.image-grid .image {
 			margin: 0;
 			width: 25%;
 		}
 
-		.image-grid .image:hover > img{
+		.image-grid .about:hover > img{
 			-webkit-filter: blur(5px);
 		}
 
-			.image-grid .image img {
+			.image-grid .about img {
 				width: 100%;
 				max-height: 171px;
 				z-index: -1;
@@ -2904,8 +2922,12 @@
 				color: #555;
 			}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
+			.wrapper.style1 h1, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #555;
+			}
+
+			.wrapper.style1 h2 {
+				color: #25383B;
 			}
 
 			.wrapper.style1 blockquote {
@@ -2919,6 +2941,10 @@
 
 			.wrapper.style1 hr {
 				border-bottom-color: rgba(144, 144, 144, 0.25);
+			}
+
+			.wrapper.style1 header h2 {
+				text-align: center;
 			}
 
 			.wrapper.style1 header p {
@@ -3692,7 +3718,7 @@
 			display: inline-block;
 			margin-right: 1.25em;
 			text-decoration: none;
-			font-size: 36px;
+			font-size: 32px;
 		}
 
 			#header a[href="#nav"] {
@@ -3813,6 +3839,7 @@
 			#nav > ul.links {
 				list-style: none;
 				padding: 0;
+				font-size: 18px;
 			}
 
 				#nav > ul.links > li {
@@ -3857,6 +3884,7 @@
 			top: 0;
 			vertical-align: middle;
 			width: 7em;
+			font-size: 24px;
 		}
 
 			#nav .close:before {
