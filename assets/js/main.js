@@ -53,14 +53,11 @@
 					side: 'right'
 				});
 
-			$('.image-grid.image').click(function (e) {
+			$('.about').hover(function (e) {
 				e.preventDefault();
-
-				$body.animate({
-					scrollTop: $('#one').css("top")
-				})
-				
-			})
+				var $this = $(this);
+				$this.children().first().toggleClass("hidden")
+			});
 
 	});
 

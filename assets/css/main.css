@@ -2823,9 +2823,32 @@
 			width: 25%;
 		}
 
+		.image-grid .image:hover > img{
+			-webkit-filter: blur(5px);
+		}
+
 			.image-grid .image img {
 				width: 100%;
 				max-height: 171px;
+				z-index: -1;
+			}
+
+		.image-grid .about {
+			position: relative;
+		}
+
+
+			.image-grid .about p {
+				color: white;
+				position: absolute;
+				top: 10%;
+				z-index: 1;
+				margin: 15px;
+				/*vertical-align: middle;*/
+			}
+
+			.image-grid .about .hidden {
+				display: none;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -4030,6 +4053,12 @@
 			margin-bottom: 0.5em;
 			padding: 0.5em;
 			width: 2.25em;
+			background: url("../../images/IMG_2102.jpg");
+			background-size: contain;
+		}
+
+		#banner .icon {
+			max-width: 100%;
 		}
 
 		@media screen and (max-width: 1680px) {
