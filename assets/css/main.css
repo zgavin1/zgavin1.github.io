@@ -3789,19 +3789,17 @@
 	}
 
 	@media screen and (max-width: 480px) {
+    #header {
+       min-width: 320px;
+     }
 
-		#header {
-			min-width: 320px;
-		}
-
-			#header > h1 {
-				left: 1em;
-			}
-
-			#header.alt {
-				padding: 0.5em 1em;
-			}
-
+    	#header > h1 {
+        left: 1em;
+      }
+       
+      #header.alt {
+        padding: 0.5em 1em;
+      }
 	}
 
 /* Nav */
