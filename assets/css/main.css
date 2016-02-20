@@ -2852,7 +2852,7 @@
 
 			.image-grid .about img {
 				width: 100%;
-				max-height: 171px;
+				height: 171px;
 				z-index: -1;
 			}
 
