@@ -3872,6 +3872,11 @@
 						border-top: 0 !important;
 					}
 
+					#nav > ul.links > li:hover {
+						text-decoration: underline;
+					}
+					
+
 		#nav .close {
 			text-decoration: none;
 			-moz-transition: color 0.2s ease-in-out;
@@ -4080,7 +4085,7 @@
 		#banner p {
 			color: #fff;
 			font-size: 1.5em;
-			margin-bottom: 1.75em;
+			margin-bottom: 1em;
 			text-transform: uppercase;
 		}
 
