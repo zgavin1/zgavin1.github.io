@@ -1,44 +1,69 @@
-.App {
-  text-align: center;
+.main {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  margin-top: 10em;
+  padding: 0 2em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title-header {
+  color: #555;
+  font-size: 2em;
+  font-weight: semibold;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
+.title-info {
   font-size: 1.5em;
+  font-weight: 500;
 }
 
-.App-intro {
-  font-size: large;
+.content {
+  color: #555;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content ul,
+.content li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.Header {
-  width: 100%;
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.header-list {
+.list-horizontal {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  justify-content: space-around;
 }
 
-.header-list li {
-  list-style: none;
+.icon {
+  display: block;
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  background-repeat: none;
+}
+
+.icon-react {
+  background-image: url('./img/react.svg');
+  height: 36px;
+}
+.icon-redux {
+  background-image: url('./img/redux.svg');
+  height: 34px;
+  width: 36px;
+}
+.icon-html5 {
+  background-image: url('./img/html5.svg');
+  width: 29px;
+}
+.icon-css3 {
+  background-image: url('./img/css3.svg');
+  width: 29px;
+}
+.icon-angular {
+  background-image: url('./img/angular.svg');
+  width: 38px;
+}
+
+footer {
+  text-align: center;
 }
