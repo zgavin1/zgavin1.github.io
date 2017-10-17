@@ -1,7 +1,12 @@
 {
-  "main.css": "static/css/main.4c7f82cb.css",
-  "main.css.map": "static/css/main.4c7f82cb.css.map",
-  "main.js": "static/js/main.9f6d33e4.js",
-  "main.js.map": "static/js/main.9f6d33e4.js.map",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "main.css": "static/css/main.376db276.css",
+  "main.css.map": "static/css/main.376db276.css.map",
+  "main.js": "static/js/main.e4fa6bfe.js",
+  "main.js.map": "static/js/main.e4fa6bfe.js.map",
+  "static/media/angular.svg": "static/media/angular.48ae79d9.svg",
+  "static/media/css3.svg": "static/media/css3.b1d1fae6.svg",
+  "static/media/html5.svg": "static/media/html5.f0361c5e.svg",
+  "static/media/mail.svg": "static/media/mail.4d9e5a20.svg",
+  "static/media/react.svg": "static/media/react.4009eef3.svg",
+  "static/media/redux.svg": "static/media/redux.aa0a3376.svg"
 }
