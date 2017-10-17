@@ -9,23 +9,42 @@
 .title-header {
   color: #555;
   font-size: 2em;
-  font-weight: semibold;
 }
 
 .title-info {
   font-size: 1.5em;
   font-weight: 500;
+  display: inline-block;
+  margin: .5em 0;
+}
+
+.links {
+  display: flex;
+  margin: 1em 0;
+}
+
+.links a {
+  margin-right: 1em;
 }
 
 .content {
   color: #555;
 }
 
-.content ul,
-.content li {
+.content-list,
+.content-list > li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.content-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.job-list {
+  margin-bottom: 1em;
 }
 
 .list-horizontal {
@@ -39,7 +58,7 @@
   height: 40px;
   width: 40px;
   background-size: contain;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 
 .icon-react {
@@ -62,6 +81,12 @@
 .icon-angular {
   background-image: url('./img/angular.svg');
   width: 38px;
+}
+.icon-github {
+  background-image: url('./img/github.png');
+}
+.icon-mail {
+  background-image: url('./img/mail.svg');
 }
 
 footer {

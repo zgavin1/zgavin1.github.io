@@ -36,38 +36,29 @@ class App extends Component {
 					<p className="title-info">I'm a UI Engineer.</p>
 				</header>
 
+				<div className="links">
+					<a href="https://github.com/zgavin1"><i className="icon icon-github"></i></a>
+					<a href="mailto:gavinzach@gmail.com"><i className="icon icon-mail"></i></a>
+				</div>
+
 				<section className="content">
-					<ul>
+					<ul className="content-list">
 						<li>
-							Experience
-							<ul>
+							<ul className="job-list">
 								{this.getJobCards()}
 							</ul>
 						</li>
 						<li>
-							Skills
 							<ul className="list-horizontal">
-								<li>React<i className="icon icon-react"></i></li>
-								<li>Redux<i className="icon icon-redux"></i></li>
-								<li>Angular<i className="icon icon-angular"></i></li>
-								<li>HTML5<i className="icon icon-html5"></i></li>
-								<li>CSS<i className="icon icon-css3"></i></li>
-							</ul>
-						</li>
-						<li>
-							Links
-							<ul className="list-horizontal">
-								<li><a href="/">GitHub</a></li>
-								<li><a href="/">LinkedIn</a></li>
-								<li><a href="/">Twitter</a></li>
+								<li><i className="icon icon-react"></i></li>
+								<li><i className="icon icon-redux"></i></li>
+								<li><i className="icon icon-angular"></i></li>
+								<li><i className="icon icon-html5"></i></li>
+								<li><i className="icon icon-css3"></i></li>
 							</ul>
 						</li>
 					</ul>
 				</section>
-
-				<footer>
-					<p>Contact me at <a href="mailto:gavinzach@gmail.com">gavinzach@gmail.com</a></p>
-				</footer>
 
 			</div>
 		);
