@@ -33,7 +33,7 @@ class App extends Component {
 
 				<header className="title">
 					<h1 className="title-header">Hi - my name is Zach.</h1>
-					<p className="title-info">I'm a UI Engineer.</p>
+					<p className="title-info">UI Developer</p>
 				</header>
 
 				<div className="links">
