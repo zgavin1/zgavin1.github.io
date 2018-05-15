@@ -4,22 +4,16 @@ import JobCard from './components/JobCard';
 import './App.css';
 
 class App extends Component {
-	constructor() {
-		super();
-
-		this.getJobCards = this.getJobCards.bind(this);
-	}
-
-	getJobCards() {
+	get jobCards() {
 		const jobs = [
 			{
 				title: 'Think Company',
-				startDate: 'July 2016',
+				startDate: 'July 2016 - present',
 				description: 'An award-winning design consultancy in Philadelphia, I\'ve worked on a range of projects from Wordpress CMSs to Angular and React SPAs.'
 			},
 			{
-				title: 'Quill',
-				startDate: 'March 2016',
+				title: 'Quill.org',
+				startDate: 'March 2016 - June 2016',
 				description: 'An educational technology company, building software resources to teach critical writing skills. I learned on the job working on their suite of React-Redux applications.'
 			}
 		];
@@ -32,8 +26,8 @@ class App extends Component {
 			<div className="main">
 
 				<header className="title">
-					<h1 className="title-header">Hi - my name is Zach.</h1>
-					<p className="title-info">UI Developer</p>
+					<h1 className="title-header">Hi - my name is Zach</h1>
+					<p className="title-info">Software Developer</p>
 				</header>
 
 				<div className="links">
@@ -45,7 +39,7 @@ class App extends Component {
 					<ul className="content-list">
 						<li>
 							<ul className="job-list">
-								{this.getJobCards()}
+								{this.jobCards}
 							</ul>
 						</li>
 						<li>
