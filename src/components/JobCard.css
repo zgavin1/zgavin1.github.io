@@ -1,8 +1,8 @@
 .job-card {
 	padding: 1em 0;
 	list-style: none;
-	transition: box-shadow 0.25s, transform 0.25s,
 }
+
 .job-card:hover {
 	transform: translate(2px, 2px);
 	box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
